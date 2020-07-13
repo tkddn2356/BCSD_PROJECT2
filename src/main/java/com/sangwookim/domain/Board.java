@@ -1,22 +1,22 @@
 package com.sangwookim.domain;
 
-import lombok.Data;
+import java.util.Date;
 
-public class BoardVO {
+public class Board {
     private Long id;
-    private Long board_info_id;
+    private String category;
     private String title;
     private String content;
     private String writer;
-    private String regdate;
-    private String updateDate;
+    private Date reg_date;
+    private Date update_date;
 
     public Long getId() {
         return id;
     }
 
-    public Long getBoard_info_id() {
-        return board_info_id;
+    public String getCategory() {
+        return category;
     }
 
     public String getTitle() {
@@ -31,20 +31,20 @@ public class BoardVO {
         return writer;
     }
 
-    public String getRegdate() {
-        return regdate;
+    public Date getReg_date() {
+        return reg_date;
     }
 
-    public String getUpdateDate() {
-        return updateDate;
+    public Date getUpdate_date() {
+        return update_date;
     }
 
     public void setId(Long id) {
         this.id = id;
     }
 
-    public void setBoard_info_id(Long board_info_id) {
-        this.board_info_id = board_info_id;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public void setTitle(String title) {
@@ -59,11 +59,12 @@ public class BoardVO {
         this.writer = writer;
     }
 
-    public void setRegdate(String regdate) {
-        this.regdate = regdate;
+    public void setReg_date(Date reg_date) {
+        this.reg_date = reg_date;
     }
 
-    public void setUpdateDate(String updateDate) {
-        this.updateDate = updateDate;
+    public void setUpdate_date(Date update_date) {
+        this.update_date = update_date;
     }
 }
+

@@ -31,10 +31,10 @@
                     커뮤니티
                 </a>
                 <div class="dropdown-menu ">
-                    <a href='/board/list?board_info_id=1' class='dropdown-item'>자유게시판</a>
-                    <a href='/board/list?board_info_id=2' class='dropdown-item'>유머게시판</a>
-                    <a href='/board/list?board_info_id=3' class='dropdown-item'>스포츠게시판</a>
-                    <a href='/board/list?board_info_id=4' class='dropdown-item'>중고거래게시판</a>
+                    <a href='/board/list?category=자유게시판' class='dropdown-item'>자유게시판</a>
+                    <a href='/board/list?category=유머게시판' class='dropdown-item'>유머게시판</a>
+                    <a href='/board/list?category=스포츠게시판' class='dropdown-item'>스포츠게시판</a>
+                    <a href='/board/list?category=중고거래게시판' class='dropdown-item'>중고거래게시판</a>
                 </div>
             </li>
         </ul>
