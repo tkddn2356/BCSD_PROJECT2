@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<c:import url="/WEB-INF/views/includes/header.jsp" />
+<c:import url="/src/main/webapp/WEB-INF/views/includes/header.jsp" />
 <html>
 <head>
     <title>Title</title>

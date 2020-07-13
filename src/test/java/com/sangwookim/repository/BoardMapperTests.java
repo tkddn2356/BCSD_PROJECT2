@@ -10,7 +10,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"file:web/WEB-INF/dispatcher-servlet.xml", "classpath*:common/*.xml"})
+@ContextConfiguration(locations = {"file:../../../../../main/webapp/WEB-INF/dispatcher-servlet.xml", "classpath*:common/*.xml"})
 @Log4j
 @Repository
 public class BoardMapperTests {

@@ -12,5 +12,6 @@ target/
 out/
 # properties file
 src/main/resources/config/config.properties
+
 classes/*
 lib/*
